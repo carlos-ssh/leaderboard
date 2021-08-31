@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="style.css" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="nameApp" href="#"></a>
+      </nav>
+    </header>
+    <div>
+      <h1 class="headerName">Leaderboard</h1>
+    </div>
+    <main class="main">
+      <section class="scores">
+        <div class="chart">
+          <h2 class="recentTXT">Recent Scores</h2>
+          <button class="refreshBtn">Refresh</button>
+        </div>
+        <div class="chartList">
+          <li></li>
+        </div>
+      </section>
+      <section class="form">
+        <div class="form-container">
+          <h2 class="form-header">Add your score</h2>
+        </div>
+        <div>
+          <form class="form-container" action="index.php" method="POST">
+            <input class="form-input" type="text" name="name" placeholder="Add your Name">
+            <input class="form-input" type="text" name="score" placeholder="Add your Score"></form><br>
+            <button class="form-btn" type="submit" name="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="app.js" crossorigin="anonymous"></script>
+  </body>
+</html>

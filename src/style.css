@@ -1,3 +1,89 @@
 body {
   width: 100%;
+  margin: 0px;
+}
+
+nav {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+
+.nameApp {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica;
+  position: relative;
+  top: 7px;
+  left: 12px;
+}
+
+.headerName {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica;
+  font-size: 40px;
+  margin-left: 60px;
+}
+
+.chart {
+  display: inline-flex;
+  margin-left: 60px;
+}
+
+.form-header,
+.recentTXT {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica;
+  font-size: 30px;
+}
+
+.refreshBtn {
+  margin-left: 30px;
+  margin-top: 32px;
+  height: 30px;
+  border: 1px solid #000000;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica;
+  padding: 0 18px;
+}
+
+.chartList {
+  border: 1px solid #000000;
+  width: 70%;
+  margin-left: 60px;
+  list-style: none;
+}
+
+.form,
+.scores {
+  width:50vw;
+}
+
+.main {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.form-header {
+  margin-left: 150px;
+}
+
+.form-input {
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding-left: 10px;
+  border: 1px solid #000000;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica;
+  margin-top: 20px;
+  height: 25px;
+}
+
+.form-btn {
+  height: 30px;
+  border: 1px solid #000000;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica;
+  padding: 0 18px;
+  position: absolute;
+  right: 65px;
 }
