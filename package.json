@@ -1,0 +1,27 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "Leaderboard API (Async, Await)",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-ssh/leaderboard.git"
+  },
+  "keywords": [
+    "js",
+    "api",
+    "microverse",
+    "async",
+    "await",
+    "es6"
+  ],
+  "author": "Carlos-SSH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlos-ssh/leaderboard/issues"
+  },
+  "homepage": "https://github.com/carlos-ssh/leaderboard#readme"
+}
