@@ -38,6 +38,10 @@ nav {
   font-size: 30px;
 }
 
+.form-header {
+  margin: auto;
+}
+
 .refreshBtn {
   margin-left: 30px;
   margin-top: 32px;
