@@ -3,6 +3,20 @@ body {
   margin: 0px;
 }
 
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.li1, .li2 {
+  list-style: none;
+  padding: 10px;
+}
+
+.li1 {
+  background-color: #b3adad;
+}
+
 nav {
   background-color: #f1f1f1;
   margin: 0;
@@ -63,6 +77,10 @@ nav {
   width:50vw;
 }
 
+.form {
+  margin-top: 30px;
+}
+
 .main {
   display: inline-flex;
   justify-content: space-around;
@@ -90,4 +108,10 @@ nav {
   padding: 0 18px;
   position: absolute;
   right: 65px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #f1f1f1;
 }

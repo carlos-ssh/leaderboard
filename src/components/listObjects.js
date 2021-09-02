@@ -54,4 +54,4 @@ const addResult = () => {
   });
 }
 
-export default addResult;
+addResult();
