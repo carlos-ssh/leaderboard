@@ -18,11 +18,11 @@ const form = (submitData) => {
   form.append(inputScore);
   form.append(button);
 
-  function submitScore() {
-    const name = document.getElementById('name').value;
-    const score = document.getElementById('score').value;
-    submitData(name, score);
-  }
+  // function submitScore() {
+  //   const name = document.getElementById('name').value;
+  //   const score = document.getElementById('score').value;
+  //   submitData(name, score);
+  // }
 };
 
 export default form;
