@@ -1,5 +1,5 @@
 import './style.css';
-import listScore from './components/listOjects';
+import listScore from './components/listObjects';
 import form from './components/form';
 import { addScores, getScores } from './components/dataApi';
 
@@ -28,3 +28,29 @@ const displayAll = () => {
     });
 };
 
+const submitForm = (e) => {
+  e.preventDefault();
+  const user = document.getElementById('user').value;
+  const score = document.getElementById('score').value;
+  const game = { user, score };
+
+  const response = addScores(game);
+  response.then((resp) => {
+    console.log(resp);
+  });
+  displayAll();
+};
+
+
+const handleRefresh = () => {
+  displayAll();
+};
+
+const initializer = () => {
+  displayAll();
+  form(submitForm);
+  const refreshBtn = document.getElementById('refresh');
+  refreshBtn.onclick = handleRefresh;
+}
+
+initializer();

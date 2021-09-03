@@ -1,4 +1,4 @@
-const form = (submitData) => {
+const form = (submitForm) => {
   const form = document.getElementById('form-container');
   const inputName = document.createElement('input');
   const inputScore = document.createElement('input');
@@ -12,17 +12,13 @@ const form = (submitData) => {
   button.innerText = 'Submit';
   button.id = 'form-btn';
   button.classList.add('form-btn');
-  button.onclick = submitScore;
+  button.onclick = submitForm;
 
   form.append(inputName);
   form.append(inputScore);
   form.append(button);
 
-  // function submitScore() {
-  //   const name = document.getElementById('name').value;
-  //   const score = document.getElementById('score').value;
-  //   submitData(name, score);
-  // }
+
 };
 
 export default form;

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type" />
     <title>Leaderboard</title>
-    <link rel="stylesheet" href="./style.css" crossorigin="anonymous">
   </head>
   <body>
     <header>
@@ -20,10 +19,10 @@
       <section class="scores">
         <div class="chart">
           <h2 class="recentTXT">Recent Scores</h2>
-          <button class="refreshBtn">Refresh</button>
+          <button id="refresh" class="refreshBtn" method="GET">Refresh</button>
         </div>
         <div id="chartList" class="chartList">
-          <ul id="chartList">
+          <ul id="score-list" class="score-list">
 
           </ul>
         </div>
@@ -33,7 +32,7 @@
           <h2 class="form-header">Add your score</h2>
         </div>
         <div>
-          <form id="form-container" class="form-container" action="index.php" method="POST">
+          <form id="form-container" class="form-container" method="POST">
 
           </form>
         </div>
