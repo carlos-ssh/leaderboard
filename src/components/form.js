@@ -18,7 +18,6 @@ const form = (submitForm) => {
   form.append(inputScore);
   form.append(button);
 
-
 };
 
 export default form;

@@ -48,14 +48,6 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@babel/core": "^7.15.0",
-    "@babel/preset-env": "^7.15.0",
-    "axios": "^0.21.1",
-    "babel-jest": "^27.0.6",
-    "bootstrap": "^5.1.0",
-    "coverage": "^0.4.1",
-    "jquery": "^3.6.0",
-    "node-localstorage": "^2.2.1",
-    "popper.js": "^1.16.1"
+    "axios": "^0.21.1"
   }
 }

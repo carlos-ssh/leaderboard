@@ -1,37 +1,36 @@
 import './style.css';
-import listScore from './components/listObjects';
+import listObjects from './components/listObjects';
 import form from './components/form';
 import { addScores, getScores } from './components/dataApi';
 
 const displayAll = () => {
-  const sl = document.querySelector('.score-list');
+  const sl = document.getElementById('score-list');
   const response = getScores();
   let data = [];
-  const liLoading = listScore({ user: 'Requesting data from API', score: '' });
+  const liLoading = listObjects({ user: 'Requesting data from API', score: 'nothing to show' });
   sl.append(liLoading);
   response
     .then((response) => {
       data = [...response.data.result];
       sl.innerHTML = '';
       data.forEach((score) => {
-        const li = listScore(score);
+        const li = listObjects(score);
         sl.append(li);
       });
     })
     .catch((error) => {
-      const li = listScore({ 
-        user: 'Error', 
+      const li = listObjects({ 
+        user: 'User Error', 
         score: error.message 
       });
-      console.log(error);
       sl.append(li);
     });
 };
 
 const submitForm = (e) => {
   e.preventDefault();
-  const user = document.getElementById('user').value;
-  const score = document.getElementById('score').value;
+  const user = document.getElementById('name').value = '';
+  const score = document.getElementById('score').value = '';
   const game = { user, score };
 
   const response = addScores(game);
