@@ -29,14 +29,11 @@ const displayAll = () => {
 
 const submitForm = (e) => {
   e.preventDefault();
-  const user = document.getElementById('name').value = '';
-  const score = document.getElementById('score').value = '';
+  const user = document.getElementById('name').value;
+  const score = document.getElementById('score').value;
   const game = { user, score };
-
+  
   const response = addScores(game);
-  response.then((resp) => {
-    console.log(resp);
-  });
   displayAll();
 };
 
