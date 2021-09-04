@@ -6,20 +6,16 @@ body {
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
-  display: block;
-  background-color: #ccc;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
-li {
-  flex-direction: row;
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  justify-content: space-around;
-  border-bottom: 1px solid rgba(246, 246, 246, 0.966);
-  width: 100%;
-  display: flex;
+.li1,
+.li2 {
+  list-style: none;
+  padding: 10px;
+}
+
+.li1 {
+  background-color: #b3adad;
 }
 
 nav {
@@ -62,7 +58,7 @@ nav {
   margin-left: 150px;
 }
 
-button {
+.refreshBtn {
   margin-left: 30px;
   margin-top: 32px;
   height: 30px;
@@ -92,7 +88,7 @@ button {
   justify-content: space-around;
 }
 
-input {
+.form-input {
   display: block;
   margin: auto;
   width: 80%;
@@ -110,4 +106,10 @@ input {
   padding: 0 18px;
   position: absolute;
   right: 65px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #f1f1f1;
 }
