@@ -6,16 +6,21 @@ body {
 ul {
   margin: 0;
   padding: 0;
-}
-
-.li1,
-.li2 {
   list-style: none;
   padding: 10px;
+  display: block;
+  background-color: #cccccc;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.li1 {
-  background-color: #b3adad;
+li {
+  flex-direction: row;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(246, 246, 246, 0.966);
+  width: 100%;
+  display: flex;
 }
 
 nav {
@@ -58,7 +63,7 @@ nav {
   margin-left: 150px;
 }
 
-.refreshBtn {
+button {
   margin-left: 30px;
   margin-top: 32px;
   height: 30px;
@@ -88,7 +93,7 @@ nav {
   justify-content: space-around;
 }
 
-.form-input {
+input {
   display: block;
   margin: auto;
   width: 80%;
@@ -106,10 +111,4 @@ nav {
   padding: 0 18px;
   position: absolute;
   right: 65px;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  background-color: #f1f1f1;
 }
