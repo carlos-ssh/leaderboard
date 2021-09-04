@@ -55,11 +55,11 @@ A Leaderboard project with webpack and JavaScript
 
 ## Authors
 
-👤 **Eduardo Rodriguez**
+👤 **Carlitros Flores**
 
-- GitHub: [@EroAuditore](https://github.com/carlos-ssh)
-- Twitter: [@EroAuditore](https://twitter.com/aom.robles)
-- LinkedIn: [EroAuditore](https://www.linkedin.com/in/carlos-ssh/)
+- GitHub: [@Carlitros Flores](https://github.com/carlos-ssh)
+- Twitter: [@Carlitros Flores](https://twitter.com/aom.robles)
+- LinkedIn: [Carlitros Flores](https://www.linkedin.com/in/carlos-ssh/)
 
 ## Getting Started
 
@@ -74,7 +74,7 @@ A Leaderboard project with webpack and JavaScript
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:eroauditore/Leaderboard.git
+   git clone git@github.com:carlos-ssh/Leaderboard.git
    ```
 2. Install NPM packages
    ```sh

@@ -1,7 +1,8 @@
 import axios from 'axios';
 
-const key = 'pMxFA7HzjrI3CVSUQpgA';
+const key = '3IGjFzzBEY0MX1krdUtm';
 const apiURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
+
 
 const getScores = async () => {
   const response = await axios.get(`${ apiURL }/games/${ key }/scores`);
