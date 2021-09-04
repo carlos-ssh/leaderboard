@@ -7,7 +7,7 @@ const displayAll = () => {
   const sl = document.getElementById('score-list');
   const response = getScores();
   let data = [];
-  const liLoading = listObjects({ user: 'Requesting data from API', score: 'nothing to show' });
+  const liLoading = listObjects({ user: 'Requesting data from API', score: '' });
   sl.append(liLoading);
   response
     .then((response) => {
@@ -32,12 +32,11 @@ const submitForm = (e) => {
   const user = document.getElementById('name').value = '';
   const score = document.getElementById('score').value = '';
   const game = { user, score };
-
   const response = addScores(game);
   response.then((resp) => {
     console.log(resp);
   });
-  displayAll();
+  displayData();
 };
 
 
