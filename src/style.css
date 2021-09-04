@@ -1,0 +1,113 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  background-color: #ccc;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  flex-direction: row;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(246, 246, 246, 0.966);
+  width: 100%;
+  display: flex;
+}
+
+nav {
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+
+.nameApp {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  position: relative;
+  top: 7px;
+  left: 12px;
+}
+
+.headerName {
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 40px;
+  margin-left: 60px;
+}
+
+.chart {
+  display: inline-flex;
+  margin-left: 60px;
+}
+
+.form-header,
+.recentTXT {
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+.form-header {
+  margin: auto;
+  margin-left: 150px;
+}
+
+button {
+  margin-left: 30px;
+  margin-top: 32px;
+  height: 30px;
+  border: 1px solid #000;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  padding: 0 18px;
+}
+
+.chartList {
+  border: 1px solid #000;
+  width: 70%;
+  margin-left: 60px;
+  list-style: none;
+}
+
+.form,
+.scores {
+  width: 50vw;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.main {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+input {
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding-left: 10px;
+  border: 1px solid #000;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  margin-top: 20px;
+  height: 25px;
+}
+
+.form-btn {
+  height: 30px;
+  border: 1px solid #000;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  padding: 0 18px;
+  position: absolute;
+  right: 65px;
+}
